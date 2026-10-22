@@ -1,0 +1,7 @@
+# dshm-boot-rescue profile registration（bundle patch）。
+#
+# 行 id 与包名一致（dshm-boot-rescue）：DSHM 的 .dshm-plugin-rows.yml 用这个 id
+# 表达「这个插件启用/停用」，救援插件自身也据此识别「不能停用自己」。
+- insert:
+    - id: dshm-boot-rescue
+      name: 'dshm-boot-rescue'
